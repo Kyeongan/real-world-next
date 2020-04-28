@@ -9,7 +9,11 @@ export default function Home({ allPostsData }) {
 			<Head>
 				<title>{siteTitle}</title>
 			</Head>
-			<p>I’m Karl and I build the data visualizations for unique business insights</p>
+			<p>
+				I’m Karl and I build the data visualizations for unique business insights{" "}
+				<a href="https://twitter.com/karlkwonphd">@Twitter</a>{" "}
+				<a href="https://www.linkedin.com/in/kyeongan/">@LinkedIn</a>
+			</p>
 
 			<section className={utilStyles.headingMd}>…</section>
 			<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}></section>
