@@ -15,7 +15,7 @@ export default function Home({ allPostsData }) {
 				<a href="https://www.linkedin.com/in/kyeongan/">@LinkedIn</a>
 			</p>
 
-			<section className={utilStyles.headingMd}>…</section>
+			{/* <section className={utilStyles.headingMd}>…</section> */}
 			<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}></section>
 			<section className={utilStyles.headingMd}>
 				<h2 className={utilStyles.headingLg}>Blog</h2>
@@ -30,10 +30,6 @@ export default function Home({ allPostsData }) {
 						</li>
 					))}
 				</ul>
-				<p>
-					(This is a sample website - you’ll be building a site like this on{" "}
-					<a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-				</p>
 			</section>
 		</Layout>
 	)
