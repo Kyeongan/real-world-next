@@ -24,8 +24,8 @@ export default function Home({ allPostsData }) {
 						<li className={utilStyles.listItem} key={id}>
 							{title}
 							<br />
-							{id}
-							<br />
+							{/* {id}
+							<br /> */}
 							{date}
 						</li>
 					))}
